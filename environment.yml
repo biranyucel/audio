@@ -1,0 +1,11 @@
+name: audio
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - torchaudio
+  - ipykernel
+  - matplotlib
+  - ipywidgets
+  - nodejs
+prefix: /usr/local/anaconda3/envs/audio
